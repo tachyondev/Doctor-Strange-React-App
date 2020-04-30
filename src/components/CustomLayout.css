@@ -1,0 +1,473 @@
+.content-img-layer {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://wallpapertag.com/wallpaper/full/9/8/a/134920-full-size-dr-strange-wallpaper-2560x1600.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+}
+
+.content-img-overlay {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+  background-color: rgb(0, 0, 0, 0.4);
+}
+
+.content-data-layer {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: 2;
+  background-color: transparent;
+  display: grid;
+  grid-template-rows: 5fr 90fr 5fr;
+  grid-template-columns: 5fr 90fr 5fr;
+}
+
+.content-nav-holder {
+  display: flex;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  justify-content: center;
+}
+
+@supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+  .content-nav-holder {
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+    background-color: transparent;
+  }
+
+  .content-logo-holder {
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+    background-color: transparent;
+  }
+
+  .content-menu-holder {
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+    background-color: transparent;
+  }
+
+  .content-social-media-holder {
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+    background-color: transparent;
+  }
+
+  .content-item-counts-holder {
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+    background-color: transparent;
+  }
+}
+
+.content-nav-item {
+  margin-left: 25px;
+  margin-right: 25px;
+  align-self: center;
+  color:#ffffff;
+  font-weight: bold;
+}
+
+.content-logo-holder {
+  display: flex;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  align-self: center;
+  justify-content: center;
+}
+
+.content-logo {
+  display: flex;
+  padding: 20px;
+  width: 100px;
+  height: 100px;
+}
+.content-menu-holder {
+  display: flex;
+  grid-column: 3/4;
+  grid-row: 1/2;
+  text-align: center;
+  justify-content: center;
+}
+
+.content-menu-icon {
+  align-self: center;
+  color: #ffffff;
+  font-size: 1.5em;
+}
+
+.content-social-media-holder {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.2fr 0.5fr 0.5fr 0.5fr 4fr 2fr;
+  justify-items: center;
+}
+
+.content-social-media-youtube {
+  grid-column: 1/1;
+  grid-row: 2/3;
+  display: flex;
+  align-self: center;
+  color: #ffffff;
+  font-size: 1.5em;
+}
+
+.content-social-media-twitter {
+  grid-column: 1/1;
+  grid-row: 3/4;
+  display: flex;
+  align-self: center;
+  color: #ffffff;
+  font-size: 1.5em;
+}
+
+.content-social-media-insta {
+  grid-column: 1/1;
+  grid-row: 4/5;
+  display: flex;
+  align-self: center;
+  color: #ffffff;
+  font-size: 1.5em;
+}
+
+.content-social-media-text {
+  align-self: center;
+  grid-column: 1/1;
+  grid-row: 6/7;
+  writing-mode: vertical-rl;
+  transform: rotate(180);
+  color: #ffffff;
+  font-size: 1.2em;
+}
+
+.content-item-counts-holder {
+  grid-column: 3/4;
+  grid-row: 2/3;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr 7fr 1fr;
+  justify-items: center;
+}
+
+.content-item-counts-text {
+  align-self: center;
+  grid-row: 1/2;
+  grid-column: 1/1;
+  writing-mode: vertical-rl;
+  color: #ffffff;
+  font-size: 1.2em;
+}
+
+.content-item-counts-text-end {
+  align-self: center;
+  grid-row: 3/4;
+  grid-column: 1/1;
+  color: #ffffff;
+  font-size: 1.2em;
+}
+.content-img-layer {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://wallpapertag.com/wallpaper/full/9/8/a/134920-full-size-dr-strange-wallpaper-2560x1600.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+}
+.content-data-layer {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+  background-color: transparent;
+  display: grid;
+  grid-template-rows: 5fr 90fr 5fr;
+  grid-template-columns: 5fr 90fr 5fr;
+}
+
+.content-nav-holder {
+  display: flex;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  justify-content: center;
+}
+
+@supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+  .content-nav-holder {
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+    background-color: transparent;
+  }
+
+  .content-logo-holder {
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+    background-color: transparent;
+  }
+
+  .content-menu-holder {
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+    background-color: transparent;
+  }
+
+  .content-social-media-holder {
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+    background-color: transparent;
+  }
+
+  .content-item-counts-holder {
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+    background-color: transparent;
+  }
+}
+
+.content-logo-holder {
+  display: flex;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  align-self: center;
+  justify-content: center;
+}
+
+.content-logo {
+  display: flex;
+  padding: 20px;
+  width: 100px;
+  height: 100px;
+}
+.content-menu-holder {
+  display: flex;
+  grid-column: 3/4;
+  grid-row: 1/2;
+  text-align: center;
+  justify-content: center;
+}
+
+.content-menu-icon {
+  align-self: center;
+  color: #ffffff;
+  font-size: 1.5em;
+}
+
+.content-main-holder {
+  grid-row: 2/3;
+  grid-column: 2/3;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 3fr 3fr 3fr;
+  justify-items: center;
+}
+
+.content-main-title-holder {
+  grid-row: 1/2;
+  grid-column: 1/1; 
+  display: flex;
+  align-self: end;
+}
+
+.content-main-title-text {
+  color: #ffffff;
+  font-size: 8em;
+  letter-spacing: 5px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+
+.content-main-subtitle-holder {
+  grid-row: 2/3;
+  grid-column: 1/1;
+  align-self: center;
+}
+
+.content-main-subtitle-text {
+  color: #ffffff;
+  font-size: 2.5em;
+  text-align: center;
+}
+.content-main-subtitle-subtext {
+  margin-top: 3%;
+  color: #ffffff;
+  font-size: 1.8em;
+  text-align: center;
+}
+
+span {
+  font-weight: bold;
+}
+
+.content-main-button-holder {
+  margin-top: 5px;
+  grid-row: 3/4;
+  grid-column: 1/1;
+  align-self: top;
+}
+
+.content-main-button {
+  width: 175px;
+  height: 50px;
+}
+
+.content-social-media-holder {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.2fr 0.5fr 0.5fr 0.5fr 4fr 2fr;
+  justify-items: center;
+}
+
+.content-social-media-youtube {
+  grid-column: 1/1;
+  grid-row: 2/3;
+  display: flex;
+  align-self: center;
+  color: #ffffff;
+  font-size: 1.5em;
+}
+
+.content-social-media-twitter {
+  grid-column: 1/1;
+  grid-row: 3/4;
+  display: flex;
+  align-self: center;
+  color: #ffffff;
+  font-size: 1.5em;
+}
+
+.content-social-media-insta {
+  grid-column: 1/1;
+  grid-row: 4/5;
+  display: flex;
+  align-self: center;
+  color: #ffffff;
+  font-size: 1.5em;
+}
+
+.content-social-media-text {
+  align-self: center;
+  grid-column: 1/1;
+  grid-row: 6/7;
+  writing-mode: vertical-rl;
+  transform: rotate(180);
+  color: #ffffff;
+  font-size: 1.2em;
+}
+
+.content-item-counts-holder {
+  grid-column: 3/4;
+  grid-row: 2/3;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  justify-items: center;
+}
+
+.content-item-counts-text {
+  align-self: center;
+  grid-row: 1/2;
+  grid-column: 1/1;
+  writing-mode: vertical-rl;
+  color: #ffffff;
+  font-size: 1.2em;
+}
+
+.conetnt-item-counts-number-one {
+  align-self: center;
+  grid-row: 3/4;
+  grid-column: 1/1;
+  color: #ffffff;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.conetnt-item-counts-number-two {
+  align-self: center;
+  grid-row: 4/5;
+  grid-column: 1/1;
+  color: #ffffff;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.conetnt-item-counts-number-three {
+  align-self: center;
+  grid-row: 5/6;
+  grid-column: 1/1;
+  color: #ffffff;
+  font-size: 1.2em;
+  font-weight: bold;
+  height: 50px;
+  width: 50px;
+  justify-content: center;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  background-image: url("http://localhost:3000/images/loading.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.conetnt-item-counts-number-active {
+  width: 50px;
+  height: 50px;
+}
+.conetnt-item-counts-number-four {
+  align-self: center;
+  grid-row: 6/7;
+  grid-column: 1/1;
+  color: #ffffff;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.conetnt-item-counts-number-five {
+  align-self: center;
+  grid-row: 7/8;
+  grid-column: 1/1;
+  color: #ffffff;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.content-item-counts-text-end {
+  align-self: center;
+  grid-row: 10/11;
+  grid-column: 1/1;
+  color: #ffffff;
+  font-size: 1.2em;
+}
+
+.content-next-page-content-holder {
+  grid-row: 3/4;
+  grid-column: 2/3;
+  display: flex;
+  justify-content: center;
+}
+
+.content-next-page-button {
+  width: 75px;
+  height: 100px;
+}
+.content-next-page-button-icon{
+  width: 50px;
+  height: 50px;
+}
+
+
+
+
+
