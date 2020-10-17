@@ -207,7 +207,17 @@
   color: #ffffff;
   font-size: 1.2em;
 }
-
+.content-img-layer {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://wallpapertag.com/wallpaper/full/9/8/a/134920-full-size-dr-strange-wallpaper-2560x1600.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+}
 .content-data-layer {
   position: absolute;
   width: 100vw;
@@ -425,7 +435,6 @@ span {
   font-size: 1.2em;
   font-weight: bold;
 }
-
 .conetnt-item-counts-number-three {
   align-self: center;
   grid-row: 5/6;
@@ -439,7 +448,7 @@ span {
   display: flex;
   align-content: center;
   align-items: center;
-  background-image: url("http://time-stone.herokuapp.com/images/loading.png");
+  background-image: url("http://localhost:3000/images/loading.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

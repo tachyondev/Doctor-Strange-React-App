@@ -16,7 +16,7 @@ class CustomLayout extends Component {
           <div className="content-logo-holder">
             <img
               className="content-logo"
-              src="http://time-stone.herokuapp.com/images/logo.png"
+              src="http://192.168.225.28:3000/images/logo.png"
               alt="logo"
             ></img>
           </div>
