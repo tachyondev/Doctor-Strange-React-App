@@ -236,7 +236,18 @@
   justify-content: center;
 }
 
-.content-nav-item, .content-social-media-text, .content-item-counts-text, .content-social-media-youtube, .content-social-media-twitter, .content-social-media-insta {
+.content-nav-item, 
+.content-social-media-text, 
+.content-item-counts-text, 
+.content-social-media-youtube, 
+.content-social-media-twitter,
+.content-social-media-insta,
+.conetnt-item-counts-number-one,
+.conetnt-item-counts-number-two,
+.conetnt-item-counts-number-three,
+.conetnt-item-counts-number-four,
+.conetnt-item-counts-number-five
+  {
   -webkit-transform: scale(1);
 	transform: scale(1);
 	-webkit-transition: .3s ease-in-out;
@@ -258,6 +269,15 @@
   -webkit-transform: scale(1.3);
   transform: scale(1.3);
   color: #00acee;
+}
+
+.conetnt-item-counts-number-one:hover,
+.conetnt-item-counts-number-two:hover,
+.conetnt-item-counts-number-three:hover,
+.conetnt-item-counts-number-four:hover,
+.conetnt-item-counts-number-five:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
 }
 
 .content-social-media-insta:hover {
